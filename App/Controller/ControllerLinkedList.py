@@ -240,4 +240,4 @@ class LinkedList (Database):
 
         node[batas-1], node[first] = node[first], node[batas-1]
         return batas
-    
+  
