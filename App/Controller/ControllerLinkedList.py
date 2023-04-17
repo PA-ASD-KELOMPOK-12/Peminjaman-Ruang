@@ -142,6 +142,7 @@ class LinkedList (Database):
 
         # Jika elemen tidak ditemukan
         return -1, -1
+    
 
     def searchKelas(self, search):
         self.refresh()
