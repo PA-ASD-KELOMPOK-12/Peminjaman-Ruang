@@ -8,3 +8,4 @@ class Database:
         
         self.akun_collection = database["akun"]
         self.data_collection = database["data"]
+        
