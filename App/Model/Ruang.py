@@ -13,3 +13,4 @@ class Ruang: #Node untuk menyimpan data peminjaman ruang
                     "ket" : data[10]} 
         # self.data = data
         self.next = None
+        
