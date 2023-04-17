@@ -79,6 +79,7 @@ class User(Database):
         date = datetime.now()
         cek = self.data_collection.find() #melakukan pengecekan pada semua data didatabase
         for i in cek :
+            
             tanggal_s = i["tanggals"]
             cek =  tanggal_s < date #jika waktu selesai peminjaman kurang dari waktu sekarang
             if cek:
@@ -110,3 +111,5 @@ class User(Database):
         "ket" : "Digunakan"}
         self.data_collection.insert_one(data)
         print("\n---------------PEMINJAMAN BERHASIL DITAMBAHKAN----------------")
+
+        
