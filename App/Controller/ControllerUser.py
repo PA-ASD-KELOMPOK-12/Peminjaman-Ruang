@@ -73,6 +73,7 @@ class User(Database):
                                data["mk"][i] ,data["keperluan"][i],data["status"][i], data["tanggalp"][i], data["tanggals"][i]])
 
             print(tabel) 
+            
 
     def updatePeminjamanKelas(self): #jika kelas sudah selesai dilakukan peminjaman maka akan melakukan update secara otomatis
         date = datetime.now()
