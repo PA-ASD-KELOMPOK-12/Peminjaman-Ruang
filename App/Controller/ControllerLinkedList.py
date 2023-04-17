@@ -104,6 +104,7 @@ class LinkedList (Database):
                     if type(element) == type(x) and element == x:
                         found = True
                         break
+                        
                 if found:
                     return mid, sub_arr.index(x)
                     
@@ -123,6 +124,7 @@ class LinkedList (Database):
 
             # Jika elemen pada indeks tengah bukan sublist, lakukan pencarian langsung pada elemen pada indeks tengah
             else:
+                
                 if type(arr[mid]) == type(x) and arr[mid] == x:
                     return mid, 0
                 
@@ -230,6 +232,7 @@ class LinkedList (Database):
         return node
 
     def partition(self, node, first, last, key):
+        
         pivot = node[first][key]
         batas = first + 1
 
