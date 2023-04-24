@@ -22,7 +22,7 @@
 --------------------------------------
 
 ### Fitur
-- Pada program ini terdapat library yang digunakan, diantaranya adalah PrettyTable, datetime, dan PyMongo.
+- Pada program ini terdapat library yang digunakan, diantaranya adalah PrettyTable, Datetime, dan PyMongo.
 >  1. PrettyTable merupakan library atau pustaka dalam python yang digunakan untuk membuat / mengeluarkan data dalam bentuk tabel.
 >  2. Datetime adalah sebuah library atau modul yang dipanggil jika anda membutuhkan segala operasi yang berhubungan demi waktu.
 >  3. PyMongo berisi alat untuk bekerja dengan MongoDB, dan merupakan cara yang disarankan untuk bekerja dengan MongoDB dari Python.
