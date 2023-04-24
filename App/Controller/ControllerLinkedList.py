@@ -43,7 +43,7 @@ class LinkedList (Database):
         if(data == ""):
 
             if self.head is None :
-                print("Data tidak ditemukan")
+                print("Tidak ada peminjaman ruang\n")
 
             else :
                 n = self.head
