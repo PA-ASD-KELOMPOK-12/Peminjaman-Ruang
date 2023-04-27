@@ -126,7 +126,7 @@ class LinkedList (Database):
             else:
                 
                 if type(arr[mid]) == type(x) and arr[mid] == x:
-                    return mid, 0
+                    return mid
                 
                 # Jika elemen pada indeks tengah lebih kecil dari elemen yang dicari, cari di bagian kanan array
                 elif type(arr[mid]) == type(x) and arr[mid] < x:
@@ -143,7 +143,7 @@ class LinkedList (Database):
                     n = mid
 
         # Jika elemen tidak ditemukan
-        return -1, -1
+        return -1
     
 
     def searchKelas(self, search):
