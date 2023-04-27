@@ -95,41 +95,12 @@ class LinkedList (Database):
         while fib > 0 and i < n:
             # Menentukan indeks tengah
             mid = min(i + fib2, n - 1)
-
-            # Jika elemen pada indeks tengah adalah sebuah sublist, lakukan pencarian secara linier pada sublist
-            if isinstance(arr[mid], list):
-                sub_arr = arr[mid]
-                found = False
-                for element in sub_arr:
-                    if type(element) == type(x) and element == x:
-                        found = True
-                        break
-                        
-                if found:
-                    return mid, sub_arr.index(x)
-                    
-                # Jika elemen terbesar dari sublist lebih kecil dari elemen yang dicari, cari di bagian kanan array
-                elif type(sub_arr[0]) == type(x) and sub_arr[0] < x:
-                    fib = fib1
-                    fib1 = fib2
-                    fib2 = fib - fib1
-                    i = mid + 1
-
-                # Jika elemen terbesar dari sublist lebih besar atau sama dengan elemen yang dicari, cari di bagian kiri array
-                else:
-                    fib = fib2
-                    fib1 = fib1 - fib2
-                    fib2 = fib - fib1
-                    n = mid
-
-            # Jika elemen pada indeks tengah bukan sublist, lakukan pencarian langsung pada elemen pada indeks tengah
-            else:
-                
-                if type(arr[mid]) == type(x) and arr[mid] == x:
+            
+                if arr[mid] == x and arr[mid] == x:
                     return mid
                 
                 # Jika elemen pada indeks tengah lebih kecil dari elemen yang dicari, cari di bagian kanan array
-                elif type(arr[mid]) == type(x) and arr[mid] < x:
+                elif arr[mid] == x and arr[mid] < x:
                     fib = fib1
                     fib1 = fib2
                     fib2 = fib - fib1
