@@ -203,19 +203,7 @@ class LinkedList (Database):
                 current = current.next
             return result
 
-    def sort_node(self,key):
-        list_nodes = [] # inisialisasi list kosong untuk menyimpan data dari setiap node
-        n = self.head # assign node pertama pada variabel n
 
-        # mengambil data dari setiap node dan memasukkannya ke dalam list_nodes
-        while n is not None:
-            convert_array = list(n.data.values()) # mengambil data dari dictionary node dan mengkonversinya menjadi list
-            list_nodes.append(convert_array) # memasukkan data ke dalam list_nodes
-            n = n.next # memindahkan pointer ke node berikutnya
-
-        # melakukan sorting menggunakan quick sort pada list_nodes berdasarkan key yang dipilih
-        sort = self.quick_sort(list_nodes, 0, len(list_nodes), key)
-        return sort
 
     def quick_sort(self, node, first, last, key):
         
@@ -244,3 +232,16 @@ class LinkedList (Database):
         node[batas-1], node[first] = node[first], node[batas-1]
         return batas
   
+    def sort_node(self,key):
+        list_nodes = [] # inisialisasi list kosong untuk menyimpan data dari setiap node
+        n = self.head # assign node pertama pada variabel n
+
+        # mengambil data dari setiap node dan memasukkannya ke dalam list_nodes
+        while n is not None:
+            convert_array = list(n.data.values()) # mengambil data dari dictionary node dan mengkonversinya menjadi list
+            list_nodes.append(convert_array) # memasukkan data ke dalam list_nodes
+            n = n.next # memindahkan pointer ke node berikutnya
+
+        # melakukan sorting menggunakan quick sort pada list_nodes berdasarkan key yang dipilih
+        sort = self.quick_sort(list_nodes, 0, len(list_nodes), key)
+        return sort
