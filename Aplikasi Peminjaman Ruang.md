@@ -32,3 +32,10 @@
      Jika opsi ini dinonaktifkan, setiap user akan memiliki akses ke semua database dan melakukan tindakan apa pun.
 --------------------------------------
 
+### Fungsionalitas
+>  1. Registrasi Mahasiswa. Mahasiswa dapat melakukan pendaftaran untuk dapat masuk ke dalam sistem peminjaman ruang kelas dengan mengisi formulir pendaftaran. Mahsiswa harus memberikan informasi pribadi seperti nim, nama, program studi, dan jenis kelamin.
+>  2. Login dan Logout (Exit). User dapat melakukan login ke dalam sistem dengan menggunakan nim/nip dan password mereka. User juga dapat keluar dari program dengan melalui pilihan Exit.
+>  3.Peminjaman Ruang Kelas. User dapat meminjam ruang kelas dengan mengisi formulir peminjaman. User harus memberikan informasi seperti tanggal dan waktu peminjaman, mata kuliah, dan keperluan peminjaman.
+     
+--------------------------------------
+
