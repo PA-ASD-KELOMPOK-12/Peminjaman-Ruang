@@ -30,6 +30,10 @@
      Selanjutnya user dapat memverifikasi apakah instalasi telah selesai dengan sukses, kita akan terhubung ke server database MongoDB menggunakan alat mongo dan melihat status koneksi melalui MongoDB. 
      Terdapat opsi authorization yang memungkinkan Role-Based Access Control (RBAC) yang mengatur akses pengguna ke sumber daya dan operasi database. 
      Jika opsi ini dinonaktifkan, setiap user akan memiliki akses ke semua database dan melakukan tindakan apa pun.
+
+- Beberapa fitur yang terdapat pada program ini, yaitu :
+> 1. Pemilihan ruangan : User dapat melihat daftar kelas yang dapat dilakukan peminjaman.
+> 2. Konfirmasi Peminjaman : Staff dapat melakukan konfirmasi peminjaman yang telah dilakukan oleh mahasiswa. 
 --------------------------------------
 
 ### Fungsionalitas
