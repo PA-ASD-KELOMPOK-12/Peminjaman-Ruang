@@ -33,7 +33,7 @@
 >  5. Modul os dapat digunakan untuk berinteraksi dengan sistem operasi dan melakukan operasi pada file dan direktori.
 >  6. Modul random pada adalah modul yang menyediakan fungsi-fungsi untuk menghasilkan bilangan acak. 
 
-- Beberapa fitur yang terdapat pada program ini, yaitu :
+Beberapa fitur yang terdapat pada program ini, yaitu :
 - User 
 > 1. Pemilihan ruangan : User dapat melihat daftar kelas yang dapat dilakukan peminjaman.
 - Staff
