@@ -21,7 +21,7 @@
 --------------------------------------
 
 ### Fitur
-- Pada program ini terdapat library yang digunakan, diantaranya adalah PrettyTable, Datetime, time, PyMongo, os dan random.
+Pada program ini terdapat library yang digunakan, diantaranya adalah PrettyTable, Datetime, time, PyMongo, os dan random.
 >  1. PrettyTable merupakan library atau pustaka dalam python yang digunakan untuk membuat / mengeluarkan data dalam bentuk tabel.
 >  2. Datetime adalah sebuah library atau modul yang dipanggil jika anda membutuhkan segala operasi yang berhubungan demi waktu.
 >  3. Modul time adalah modul yang menyediakan fungsi-fungsi untuk mengelola waktu dan tanggal. 
@@ -36,9 +36,12 @@
 Beberapa fitur yang terdapat pada program ini, yaitu :
 - User 
 > 1. Pemilihan ruangan : User dapat melihat daftar kelas yang dapat dilakukan peminjaman.
+> 2. Membuat peminjaman : User dapat membuat peminjaman kelas yang akan digunakan.
+> 3. Mencari ruangan : User dapat mencari kelas untuk mengecek apakah kelas tersebut digunakan atau tidak, apabila digunakan maka akan memunculkan informasi daftar kelas yang digunakan.
+> 4. Melihat profil : User dapat melihat profil diri yang berisi nim, nama, program studi dan jenis kelamin.
 - Staff
 > 1. Konfirmasi Peminjaman : Staff dapat melakukan konfirmasi peminjaman yang telah dilakukan oleh mahasiswa. 
-> 2. Mencetak bukti peminjaman : Setelah Staff menambahkan daftar kelas yang akan digunakan maka dapat mencetak bukti peminjaman sebagai bukti tanda kelas digunakan sudah terkonfirmasi oleh staff 
+> 2. Mencetak bukti peminjaman : Setelah Staff menambahkan daftar kelas yang akan digunakan maka dapat mencetak bukti peminjaman sebagai bukti tanda kelas digunakan sudah terkonfirmasi oleh staff.
 --------------------------------------
 
 ### Fungsionalitas
