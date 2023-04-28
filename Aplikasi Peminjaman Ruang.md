@@ -21,14 +21,17 @@
 --------------------------------------
 
 ### Fitur
-- Pada program ini terdapat library yang digunakan, diantaranya adalah PrettyTable, Datetime, dan PyMongo.
+- Pada program ini terdapat library yang digunakan, diantaranya adalah PrettyTable, Datetime, time, PyMongo, os dan random.
 >  1. PrettyTable merupakan library atau pustaka dalam python yang digunakan untuk membuat / mengeluarkan data dalam bentuk tabel.
 >  2. Datetime adalah sebuah library atau modul yang dipanggil jika anda membutuhkan segala operasi yang berhubungan demi waktu.
->  3. PyMongo berisi alat untuk bekerja dengan MongoDB, dan merupakan cara yang disarankan untuk bekerja dengan MongoDB dari Python.
+>  3. Modul time adalah modul standar yang menyediakan fungsi-fungsi untuk mengelola waktu dan tanggal. 
+>  4. PyMongo berisi alat untuk bekerja dengan MongoDB, dan merupakan cara yang disarankan untuk bekerja dengan MongoDB dari Python.
      Untuk menjalankan PyMongo sendiri, hal yang harus dilakukan adalah mengakses MongoDB ataupun menginstall MongoDB. 
      Selanjutnya user dapat memverifikasi apakah instalasi telah selesai dengan sukses, kita akan terhubung ke server database MongoDB menggunakan alat mongo dan melihat status koneksi melalui MongoDB. 
      Terdapat opsi authorization yang memungkinkan Role-Based Access Control (RBAC) yang mengatur akses pengguna ke sumber daya dan operasi database. 
      Jika opsi ini dinonaktifkan, setiap user akan memiliki akses ke semua database dan melakukan tindakan apa pun.
+>  5. Modul os dapat digunakan untuk berinteraksi dengan sistem operasi dan melakukan operasi pada file dan direktori.
+>  6. Modul random pada adalah modul standar yang menyediakan fungsi-fungsi untuk menghasilkan bilangan acak. 
 
 - Beberapa fitur yang terdapat pada program ini, yaitu :
 > 1. Pemilihan ruangan : User dapat melihat daftar kelas yang dapat dilakukan peminjaman.
