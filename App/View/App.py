@@ -3,7 +3,6 @@ from View import Mahasiswa
 import os
 import time
 
-
 def welcome():
     print(""" 
                 ░██╗░░░░░░░██╗███████╗██╗░░░░░░█████╗░░█████╗░███╗░░░███╗███████╗
