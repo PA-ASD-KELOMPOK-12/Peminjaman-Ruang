@@ -3,7 +3,7 @@
 ### Deskripsi Program
 > Program Aplikasi Peminjaman Ruang Kelas dibuat dengan tujuan untuk membantu memudahkan pengguna dalam melakukan peminjaman ruang kelas yang tersedia. Selain itu, program ini juga membantu admin untuk mengelola pendaftaran ruang kelas dan melakukan monitoring terhadap peminjaman ruang kelas yang telah dilakukan serta membantu dan memudahkan mahasiswa dalam melakukan peminjaman ruang kelas. Dengan begitu, program ini diharapkan dapat meningkatkan efektivitas dan efisiensi dalam penggunaan ruang kelas yang tersedia.
 
-> Program ini dibuat dengan menggunakan Bahasa pemrograman Python dan mengimplementasikan struktur data Linked List. Aplikasi peminjaman ruang kelas ini juga menggunakan sebuah database, yaitu database MongoDB yang digunakan untuk menyimpan data akun Mahasiswa dan Staff serta data peminjaman ruang kelas.
+> Program ini dibuat dengan menggunakan bahasa pemrograman Python dan mengimplementasikan struktur data Linked List. Aplikasi peminjaman ruang kelas ini juga menggunakan sebuah database, yaitu database MongoDB yang digunakan untuk menyimpan data akun Mahasiswa dan Staff serta data peminjaman ruang kelas.
 --------------------------------------
 
 ### Struktur Project
@@ -24,14 +24,12 @@
 ### Fitur
 Pada program ini terdapat library yang digunakan, diantaranya adalah PrettyTable, Datetime, time, PyMongo, os dan random.
 >  1. PrettyTable merupakan library atau pustaka dalam python yang digunakan untuk membuat / mengeluarkan data dalam bentuk tabel.
->  2. Datetime adalah sebuah library atau modul yang dipanggil jika anda membutuhkan segala operasi yang berhubungan demi waktu.
+>  2. Datetime adalah sebuah library atau modul yang dipanggil jika anda membutuhkan segala operasi yang berhubungan dengan waktu.
 >  3. Modul time adalah modul yang menyediakan fungsi-fungsi untuk mengelola waktu dan tanggal. 
 >  4. PyMongo berisi alat untuk bekerja dengan MongoDB, dan merupakan cara yang disarankan untuk bekerja dengan MongoDB dari Python.
      Untuk menjalankan PyMongo sendiri, hal yang harus dilakukan adalah mengakses MongoDB ataupun menginstall MongoDB. 
      Selanjutnya user dapat memverifikasi apakah instalasi telah selesai dengan sukses, kita akan terhubung ke server database MongoDB menggunakan alat mongo dan melihat status koneksi melalui MongoDB. 
-     Terdapat opsi authorization yang memungkinkan Role-Based Access Control (RBAC) yang mengatur akses pengguna ke sumber daya dan operasi database. 
-     Jika opsi ini dinonaktifkan, setiap user akan memiliki akses ke semua database dan melakukan tindakan apa pun.
->  5. Modul os dapat digunakan untuk berinteraksi dengan sistem operasi dan melakukan operasi pada file dan direktori.
+>  5. Modul os dapat digunakan untuk berinteraksi dengan sistem operasi dan melakukan operasi pada file dan folder.
 >  6. Modul random pada adalah modul yang menyediakan fungsi-fungsi untuk menghasilkan bilangan acak. 
 
 Beberapa fitur yang terdapat pada program ini, yaitu :
@@ -39,14 +37,15 @@ Beberapa fitur yang terdapat pada program ini, yaitu :
 > 1. Pemilihan ruangan : User dapat melihat daftar kelas yang dapat dilakukan peminjaman.
 > 2. Membuat peminjaman : User dapat membuat peminjaman kelas yang akan digunakan.
 > 3. Mencari ruangan : User dapat mencari kelas untuk mengecek apakah kelas tersebut digunakan atau tidak, apabila digunakan maka akan memunculkan informasi daftar kelas yang digunakan.
-> 4. Melihat profil : User dapat melihat profil diri yang berisi NIM, Nama, Program Studi dan Jenis Kelamin.
+> 4. Melihat profil : User dapat melihat profil yang berisi data diri seperti NIM, Nama, Program Studi dan Jenis Kelamin.
+
 - Staff
-> 1. Membuat dan mengupdate peminjaman : Staff dapat menambahkan daftar kelas dan mengupdate status kelas yang digunakan
+> 1. Membuat dan mengupdate peminjaman : Staff dapat menambahkan daftar kelas dan mengupdate status kelas yang digunakan.
 > 2. Konfirmasi Peminjaman : Staff dapat melakukan konfirmasi peminjaman yang telah dilakukan oleh mahasiswa. 
 > 3. Mencetak bukti peminjaman : Setelah Staff menambahkan daftar kelas yang akan digunakan maka dapat mencetak bukti peminjaman sebagai bukti tanda kelas digunakan sudah terkonfirmasi oleh staff.
-> 4. Mencari NIM : Staff juga dapat mencari NIM Mahasiswa yang mengkonfirmasi peminjaman ruang kelas
-> 5. Menghapus daftar peminjaman : Staff dapat menghapus daftar kelas yang digunakan
-> 6. Melihat profil : Staff dapat  melihat profil yang berisi NIP, Nama, Jenis Kelamin, dan Jabatan
+> 4. Mencari NIM : Staff juga dapat mencari NIM Mahasiswa yang mengkonfirmasi peminjaman ruang kelas.
+> 5. Menghapus daftar peminjaman : Staff dapat menghapus daftar peminjaman.
+> 6. Melihat profil : Staff dapat  melihat profil yang berisi data diri seperti  NIP, Nama, Jenis Kelamin, dan Jabatan.
 --------------------------------------
 
 ### Fungsionalitas
