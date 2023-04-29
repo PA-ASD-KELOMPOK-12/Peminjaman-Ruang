@@ -38,10 +38,14 @@ Beberapa fitur yang terdapat pada program ini, yaitu :
 > 1. Pemilihan ruangan : User dapat melihat daftar kelas yang dapat dilakukan peminjaman.
 > 2. Membuat peminjaman : User dapat membuat peminjaman kelas yang akan digunakan.
 > 3. Mencari ruangan : User dapat mencari kelas untuk mengecek apakah kelas tersebut digunakan atau tidak, apabila digunakan maka akan memunculkan informasi daftar kelas yang digunakan.
-> 4. Melihat profil : User dapat melihat profil diri yang berisi nim, nama, program studi dan jenis kelamin.
+> 4. Melihat profil : User dapat melihat profil diri yang berisi NIM, Nama, Program Studi dan Jenis Kelamin.
 - Staff
-> 1. Konfirmasi Peminjaman : Staff dapat melakukan konfirmasi peminjaman yang telah dilakukan oleh mahasiswa. 
-> 2. Mencetak bukti peminjaman : Setelah Staff menambahkan daftar kelas yang akan digunakan maka dapat mencetak bukti peminjaman sebagai bukti tanda kelas digunakan sudah terkonfirmasi oleh staff.
+> 1. Membuat dan mengupdate peminjaman : Staff dapat menambahkan daftar kelas dan mengupdate status kelas yang digunakan
+> 2. Konfirmasi Peminjaman : Staff dapat melakukan konfirmasi peminjaman yang telah dilakukan oleh mahasiswa. 
+> 3. Mencetak bukti peminjaman : Setelah Staff menambahkan daftar kelas yang akan digunakan maka dapat mencetak bukti peminjaman sebagai bukti tanda kelas digunakan sudah terkonfirmasi oleh staff.
+> 4. Mencari NIM : Staff juga dapat mencari NIM Mahasiswa yang mengkonfirmasi peminjaman ruang kelas
+> 5. Menghapus daftar peminjaman : Staff dapat menghapus daftar kelas yang digunakan
+> 6. Melihat profil : Staff dapat  melihat profil yang berisi NIP, Nama, Jenis Kelamin, dan Jabatan
 --------------------------------------
 
 ### Fungsionalitas
