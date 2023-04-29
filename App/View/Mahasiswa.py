@@ -202,4 +202,3 @@ def MenuMahasiswa(): #menjalankan menu-menu mahasiswa
 
         except:
             print("\n- Mohon perhatikan inputan")
-            
