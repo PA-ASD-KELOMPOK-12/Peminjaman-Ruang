@@ -96,22 +96,22 @@ class LinkedList (Database):
             # Menentukan indeks tengah
             mid = min(i + fib2, n - 1)
             
-                if arr[mid] == x and arr[mid] == x:
-                    return mid
-                
-                # Jika elemen pada indeks tengah lebih kecil dari elemen yang dicari, cari di bagian kanan array
-                elif arr[mid] == x and arr[mid] < x:
-                    fib = fib1
-                    fib1 = fib2
-                    fib2 = fib - fib1
-                    i = mid + 1
+            if arr[mid] == x and arr[mid] == x:
+                return mid
+            
+            # Jika elemen pada indeks tengah lebih kecil dari elemen yang dicari, cari di bagian kanan array
+            elif arr[mid] == x and arr[mid] < x:
+                fib = fib1
+                fib1 = fib2
+                fib2 = fib - fib1
+                i = mid + 1
 
-                # Jika elemen pada indeks tengah lebih besar dari elemen yang dicari, cari di bagian kiri array
-                else:
-                    fib = fib2
-                    fib1 = fib1 - fib2
-                    fib2 = fib - fib1
-                    n = mid
+            # Jika elemen pada indeks tengah lebih besar dari elemen yang dicari, cari di bagian kiri array
+            else:
+                fib = fib2
+                fib1 = fib1 - fib2
+                fib2 = fib - fib1
+                n = mid
 
         # Jika elemen tidak ditemukan
         return -1
