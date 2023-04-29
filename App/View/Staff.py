@@ -203,7 +203,6 @@ def buktiPeminjaman(id):
         print("                                               ",file=edit)
         print("===============================================",file=edit)   
                    
-
 def deleteData(): #mengahapus data didatabase
     try :
         ll.displayData() #menampilkan data didatabase
@@ -217,8 +216,7 @@ def readDaftarKelas(): #melihat daftar kelas yang sedang tidak digunakan atau st
     ll.refresh()
     user.readKodeKelas()
 
-#SORT
-
+#Sort
 def sortData():
     try:
         ll.refresh() #merefresh data di node
@@ -240,7 +238,8 @@ def sortData():
 
     except:
         print("\n- Mohon perhatikan inputan")
-    
+
+#Search
 def searchNimMhs():
     try:
         print("------------------------SEARCH NIM MAHASISWA------------------------\n")
@@ -326,4 +325,3 @@ def MenuStaff(): #menjalankan menu-menu staff
         else :
             time.sleep(3)
             os.system('cls')
-            
