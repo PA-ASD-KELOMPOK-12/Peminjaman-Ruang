@@ -116,7 +116,6 @@ class LinkedList (Database):
         # Jika elemen tidak ditemukan
         return -1
     
-
     def searchKelas(self, search):
         self.refresh()
         list_nodes = []
@@ -173,8 +172,6 @@ class LinkedList (Database):
                 result.append(current.data) #menambahkan data kedalam list
                 current = current.next
             return result
-
-
 
     def quick_sort(self, node, first, last, key):
         
