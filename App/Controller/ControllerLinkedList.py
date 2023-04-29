@@ -37,6 +37,7 @@ class LinkedList (Database):
     def displayData(self, data = ""):
         #menampilkan data dalam node
         self.refresh()
+        print("\n")
         tabel = PrettyTable(['ID','Kelas','NIM','Nama', 'Program Studi', 'Mata Kuliah','Keperluan', 'Tanggal Pinjam', 'Tanggal Selesai', 'Status', 'Keterangan'])
         tabel.title = "PEMINJAMAN RUANG KELAS"
 
@@ -96,11 +97,11 @@ class LinkedList (Database):
             # Menentukan indeks tengah
             mid = min(i + fib2, n - 1)
             
-            if arr[mid] == x and arr[mid] == x:
+            if arr[mid] == x :
                 return mid
             
             # Jika elemen pada indeks tengah lebih kecil dari elemen yang dicari, cari di bagian kanan array
-            elif arr[mid] == x and arr[mid] < x:
+            elif arr[mid] < x:
                 fib = fib1
                 fib1 = fib2
                 fib2 = fib - fib1
